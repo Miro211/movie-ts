@@ -1,0 +1,10 @@
+ li{
+    font-size: 12px;
+    transition: color 0.2s;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+ }
+ li:hover{
+    color: #007bff;
+ }

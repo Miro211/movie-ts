@@ -1,18 +1,18 @@
 
 import { useEffect } from 'react'
 import './App.css'
-
-import { useDispatch } from 'react-redux'
 import { getGenresThunk } from './store/slices/genresSlice'
+import { useAppDispatch } from './store/hooks'
+import Header from './Components/Header/Header'
 function App() {
-  const dispatch = useDispatch<any>()
+  const dispatch = useAppDispatch()
+  
   useEffect(() => {
-   dispatch(getGenresThunk())
-   
-  },[])
+    dispatch(getGenresThunk())
+  }, [])
   return (
     <div>
-
+      <Header/>
     </div>
   )
 }

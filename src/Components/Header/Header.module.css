@@ -1,0 +1,22 @@
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background: #fff;
+    /* border-bottom: 1px solid #ccc; */
+}
+.img{
+    width: 150px;
+}
+input{
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}

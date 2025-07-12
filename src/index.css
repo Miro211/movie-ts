@@ -13,3 +13,6 @@ a{
 ul,ol{
     list-style: none;
 }
+.container{
+    max-width: 1140px;
+}
